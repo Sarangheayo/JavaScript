@@ -58,8 +58,4 @@
 
  const test11 = () => console.log('콜백함수');
  myChk(test11);
-
- (() => console.log ('즉시 실행'))(); 
-
-
  
