@@ -186,3 +186,4 @@ arr19.forEach((val, key) => console.log(`${key} : ${val}`));
 const arr20 = [1,2];
 const [num3, num4] = arr20;
 console.log(num3, num4);
+
