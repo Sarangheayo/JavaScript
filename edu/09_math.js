@@ -28,3 +28,4 @@ console.log(Math.ceil(randomDouble * 10));
     // abs(arg) : 절대값을 반환
     Math.abs(1);
     Math.abs(-1); // 절대값 : 1
+    

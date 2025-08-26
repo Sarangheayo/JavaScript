@@ -1,5 +1,4 @@
-//date
-
+date
 
 
 const startDate = new Date('2001-01-18 00:00:00');
@@ -20,3 +19,6 @@ diffMs       %= (1000 * 60);
 const seconds = Math.floor(diffMs / 1000);
 
 console.log(`${days}일 ${hours}시간 ${minutes}분 ${seconds}초`); 
+
+
+

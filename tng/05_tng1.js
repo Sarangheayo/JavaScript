@@ -137,4 +137,27 @@ for (let lineCnt =
    //       }
    //  }
 
-   
+const student = {};
+
+student.name = "seola";
+student.age = 20;
+console.log(student);
+
+function func(callback) {
+  callback();
+}
+function callback() {
+  console.log("callback");
+}
+
+func(callback);
+
+let odd = [1, 3, 5, 7, 9];
+let val = odd;
+let result = odd.map(val => {
+if(val % 2 !== 0) {
+   return val;
+} else {
+  return odd;
+}
+ });
