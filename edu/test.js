@@ -1,20 +1,20 @@
-let odd = [1, 3, 5, 7, 9];
-let val = odd;
-let result = odd.map(val => {
-if(val % 2 !==0) {
-   return val;
-} else {
-  return odd;
-}
- });
+// let odd = [1, 3, 5, 7, 9];
+// let val = odd;
+// let result = odd.map(val => {
+// if(val % 2 !==0) {
+//    return val;
+// } else {
+//   return odd;
+// }
+//  });
 
-console.log(result);
+// console.log(result);
 
-let sum = 0;
-for(let i = 1; i <=10; i++) {
-    sum +=i;
-}
-console.log(sum);
+// let sum = 0;
+// for(let i = 1; i <=10; i++) {
+//     sum +=i;
+// }
+// console.log(sum);
 
 
 // function greet(name = "Guest") {
@@ -67,14 +67,14 @@ console.log(sum);
 
 // console.log(student1, .name, .age);
 
-const student = {
-  name: 'sara',
-  age: 24
-}; 
+// const student = {
+//   name: 'sara',
+//   age: 24
+// }; 
 
 
 
-console.log(student['like color']); // red
+// console.log(student['like color']); // red
 
 // if(18 >= age >= 13) {
 //    console.log('"청소년입니다."');
