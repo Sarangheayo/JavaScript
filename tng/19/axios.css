@@ -1,0 +1,50 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* 상단 inputBox → 인풋+버튼 가로 정렬
+하단 imgBox → 반응형 row 배치 */
+
+
+/* container 전체를 그리드로 나눔 */
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr; /* 상단 inputBox, 하단 imgBox */
+  gap: 20px;
+  padding: 20px;
+  width: 100vw;
+  height: 20vh;
+  background-color: pink;
+}
+
+/* inputBox 안의 인풋과 버튼 가로 정렬 */
+.inputBox {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: center;
+  gap: 10px;
+  height: 50px;
+  width: 95vw;
+}
+
+.input {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+   width: 100%;
+}
+
+.imgBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.imgBox img {
+  width: 100%; /* 그리드 칸에 맞게 */
+  display: block;
+}

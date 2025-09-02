@@ -123,3 +123,12 @@
 
 //  const now = new Date();
 //  console.log(now);
+
+let text = "He said, \"Hello!\" and left.\nNext line here.";
+console.log(text);
+
+let mun = "first, \"line\"";
+console.log(mun);
+
+let table = "Name\tAge\tJob\nJohn\t25\tDeveloper\nJane\t30\tDesigner\nTom\t28\tTester";
+console.log(table);
